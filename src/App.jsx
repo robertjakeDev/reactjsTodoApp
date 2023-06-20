@@ -14,11 +14,23 @@ const App = () => {
             </form>
           </div>
           <div className="task-list">
-            <ul className="list">
-              <li className="item">
-                
-              </li>
-            </ul>
+            <div className="menu">
+              <ul className="menu-list">
+                <li className="menu-item active">All</li>
+                <li className="menu-item">Pending</li>
+                <li className="menu-item">Completed</li>
+              </ul>
+            </div>
+            <div className="all-list">
+              <ul className="list">
+                <li className="item">
+                  <div className="dispay">
+                    <p><b>Task:</b> Eat breakfast</p>
+                    <span><b>status:</b> pending</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
