@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: skyblue;
+}
+
+.todo-wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    box-shadow: 6px 6px 1px 0px rgba(0,0,0,0.3);
+    background-color: #ffffff;
+}
+
+.todo-add form {
+    display: flex;
+}
+.todo-add form button {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.todo-add form .form-group{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.todo-add form .form-group input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+}
+.todo-add form .form-group label{
+    padding: 10px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
